@@ -26,6 +26,9 @@
                                 <color key="tintColor" red="0.98431378599999997" green="0.98431378599999997" blue="0.98431378599999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="버튼"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0Z-p7-KKn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -35,6 +38,9 @@
                             <constraint firstItem="dDq-b7-ttu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tGa-2m-oKn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="dDq-b7-ttu" id="Ux8-Qx-Ieo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
